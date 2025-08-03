@@ -1,0 +1,7 @@
+POST http://localhost:3000/generate-image
+Content-Type: application/json  
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI0ZmNhMWUzNS0zMmE5LTRiMWQtYWE4MS04ZWMxYjEzMmYwODQiLCJpYXQiOjE3NTQyMTA2MzMsImV4cCI6MTc1NDI5NzAzM30.r7t5QyWMfNduRT2ixrmlLsINniVCjh9Y0raz8kOoxI4
+
+{
+    "prompt":"A beautiful sunset over a mountain range"
+}
