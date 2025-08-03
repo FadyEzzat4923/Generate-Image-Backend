@@ -11,7 +11,7 @@ export async function imageGeneratingHuggingface(prompt) {
 
   try {
     const imageBlob = await client.textToImage({
-      model: "stabilityai/stable-diffusion-xl-base-1.0",
+      model: "stabilityai/stable-diffusion-2-1",
       inputs: prompt,
       parameters: {
         negative_prompt: "blurry, bad quality, distorted",
